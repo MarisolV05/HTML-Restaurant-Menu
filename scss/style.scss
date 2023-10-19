@@ -1,0 +1,43 @@
+@import "service";
+@import "table";
+
+* {
+  box-sizing: border-box;
+  margin: 1;
+  padding: 1;
+}
+
+
+//Styles
+body {
+    background-color: burlywood;
+    background-position: center;
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 10px 10px 10px $shadow-color;
+    font-size: 40px;
+}
+
+table {
+  @include padding(5px, 10px, 5px, 10px,);
+  @include margin(5px, 10px, 5px, 10px);
+  border: 3px solid $quaternary-color;
+  width: 100%;
+  th {
+      border: 1px solid $quaternary-color;
+      padding: 5px;
+      background-color: invert($primary-color, 80%);
+      
+  }
+  td {
+      border: 1px solid $quaternary-color;
+      font-weight: bold;
+  }
+}
+
+ 
+

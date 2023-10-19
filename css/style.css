@@ -14,7 +14,7 @@ h2 {
 h3, 
 p,
 li {
-    color: green;
+    color: rgb(11, 27, 11);
 }
 
 img {
@@ -28,7 +28,7 @@ main {
 }
 
 nav {
-    background-color: beige;
+    background-color: rgb(142, 142, 30);
     padding: 10px;
 }
 
@@ -44,7 +44,7 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 1.6em;
-    color: green;
+    color: rgb(128, 53, 0);
     margin-right: 25px;
 }
 
@@ -65,17 +65,17 @@ nav a:hover {
 
 .service {
     display: inline-block;
-    background-color: white;
-    border: 5px solid green;
+    background-color: rgb(145, 18, 18);
+    border: 5px solid rgb(12, 22, 12);
     border-radius: 5px;
-    color: darkred;
+    color: rgb(44, 49, 133);
     font-size: 2em;
     padding: 20px;
     margin: 10px;
 }
 
 table {
-    border: 3px solid black;
+    border: 3px solid rgb(95, 3, 79);
     width: 100%;
 }
   
